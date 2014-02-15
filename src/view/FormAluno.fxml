@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="initalizers.AlunoInitialize">
+<children><Label layoutX="53.0" layoutY="46.0" text="Matricula:" /><TextField fx:id="tfMatricula" layoutX="111.0" layoutY="42.0" /><TextField fx:id="tfNome" layoutX="111.0" layoutY="77.0" prefHeight="25.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" /><Label layoutX="69.0" layoutY="81.0" text="Nome:" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" /><Label layoutX="69.0" layoutY="111.0" text="E-mail:" /><TextField fx:id="tfEmail" layoutX="111.0" layoutY="107.0" prefHeight="25.0" prefWidth="267.0" /><Button fx:id="btCadastrar" layoutX="178.0" layoutY="153.0" mnemonicParsing="false" text="Cadastrar" /><TableView fx:id="tabelaAluno" layoutX="111.0" layoutY="193.0" prefHeight="200.0" prefWidth="328.0" xmlns:fx="http://javafx.com/fxml">
+  <columns>
+    <TableColumn fx:id="tabelaalunoMatricula" prefWidth="128.0" text="Matricula" />
+    <TableColumn fx:id="tabelaalunoNome" prefWidth="199.0" text="Nome" />
+  </columns>
+</TableView><Button fx:id="btnNovo" layoutX="111.0" layoutY="153.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Novo" />
+</children></AnchorPane>
